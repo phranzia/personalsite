@@ -1,20 +1,9 @@
 body {
     /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Montserrat', sans-serif;
-    /* color: white; */
 }
 
-/* a {
-    color: black;
-} */
-
-/* #entire-page {
-    background-image: linear-gradient(to right, #5C258D , #4389A2);
-} */
-
 #left-side-bar {
-    /* background-image: linear-gradient(to right, rgb(254, 31, 31) , rgb(178, 13, 193)); */
-    /* height: 50em; */
     height: 100%;
   width: 23em;
   position: fixed;
@@ -26,12 +15,10 @@ body {
   padding-top: 20px;
   justify-content: center;
   text-align: center;
-  /* border-right: 0.2em solid black; */
   box-shadow: 3px 3px 3px rgb(198, 198, 198);
 }
 
 #my-photo {
-    /* margin-left:  */
     margin-top: 5em;
     margin-bottom: 1em;
     width: 17em;
@@ -42,19 +29,20 @@ body {
     line-height: 2;
 }
 
-#contact-title {
-    color: #279cba;
+.fab {
+    margin-top: 1.5em;
+}
+
+#socials {
+    margin-right: 1em;
 }
 
 #top-bar {
-    /* background-color: transparent; */
     background-image: linear-gradient(to right, #279cba, #5C258D);
-    /* position: fixed; */
     top: 0;
     width: 150%;
     margin-left: 23em;
-    /* margin-right: -5em; */
-    height: 20em;
+    height: 22em;
     color: white;
 
 }
@@ -63,7 +51,6 @@ body {
     padding-top: 4em;
     margin-left: 2em;
     font-family: 'Josefin Sans', sans-serif;
-    /* font-size: 5em !important; */
 }
 
 #my-name{
@@ -72,37 +59,23 @@ body {
 
 #top-bar-links {
     margin-left: 2em;
-    padding-top: 1em;
+    margin-top: 3em;
 }
 
 a.top-bar-link {
     color: white;
 }
 
-
-
 #all-info{
     margin-top: 4em;
     margin-left: 30em;
-    /* background-image: linear-gradient(to right, #5C258D , #4389A2); */
-
-
 }
 
-/* #education-section {
-    padding-top: 1em;
-} */
-
-#education {
+#contact-title, #about, #education {
     color: #279cba;
 }
 
-#current-role {
-    padding-top: 2em;
-    color: #279cba;
-}
-
-#previous-roles {
+#current-role, #previous-roles {
     padding-top: 2em;
     color: #279cba;
 }

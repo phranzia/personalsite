@@ -5,20 +5,25 @@
   <meta charset="utf-8">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&family=Montserrat:wght@100;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/static/css/index.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/static/css/index.css">
 </head>
 <body>
-  <div class="row">
+  <div class="row" id = 'entire-page'>
     <div class = 'col-sm-3 mt-5 ml-3' id = 'left-side-bar'>
-        <img src = 'static/images/GPM.jpg'
+        <img src = 'static/images/GM-photo.png'
             id = 'my-photo' 
             alt="Golda Manuel">
-     <h3>Education</h3>
+        <div id = 'contact-info'>
+            <h3>Contact</h3>
+            <h5>phranzia@gmail.com</h5>
+            <p>505.504.4397</p>
+        </div>
+     <!-- <h3>Education</h3>
       <h4>Doctor of Pharmacy</h4>
       <p>University of New Mexico</p>
       <p>College of Pharmacy</p>
@@ -34,25 +39,71 @@
 
       <h4>Regulatory</h4>
       <p>University of Irvine</p>
-      <p>2002-2005</p>
-
-      <h3>Contact</h3>
-      <h5>phranzia@gmail.com</h5>
-      <p>505.504.4397</p>
+      <p>2002-2005</p> -->
     </div>
-    <div class="col-sm-8">
-        <div class = 'row'>
-            <h3>Golda Manuel, PharmD.</h3>
+    <div class="col-sm-8" id = 'all-info'>
+        <div id = 'top-bar'>
+            <div class = 'row'>
+                <h1><strong>Golda Manuel, PharmD.</strong></h1>
+            </div>
+
+            <div class="parallax"></div>
+
+            <div class = 'row'>
+                <div class = 'col-sm-2'>
+                    Education
+                </div>
+                <div class = 'col-sm-2'>
+                Current Role
+            </div>
+            <div class = 'col-sm-2'>
+                Previous Roles
+            </div>
+            </div>
         </div>
+
+        <div id = 'education-section'>
+            <div class = 'row'>
+                <h3>Education</h3>
+            </div>
+            <div class = 'row'>
+                <h4>Doctor of Pharmacy</h4>
+                <h5>
+                    <a href = 'https://hsc.unm.edu/pharmacy/'>University of New Mexico College of Pharmacy</a> | 2005-2009
+                </h5>
+            </div>
+
+            <div class = 'row'>
+                <h4>Pre-Pharmacy</h4>
+                <h5>
+                    <a href = 'https://www.unm.edu/'>University of New Mexico</a> | 2002-2005
+                </h5>
+            </div>
+
+            <div class = 'row'>
+                <h4>Medical Writing Certificate</h4>
+                <h5>
+                    <a href = 'https://leksi.co/'>University of Chicago</a> | 2016
+                </h5>
+            </div>
+
+            <div class = 'row'>
+                <h4>Regulatory</h4>
+                <h5>
+                    <a href = 'https://leksi.co/'>University of Irvine</a> | 2016
+                </h5>
+            </div>
+        </div>
+
         <div class = 'row'>
             <h3>Current Role</h3>
         </div>
         <div class = 'row'>
-            <h4>Founder & CEO</h4>
+            <h4><strong>Founder & CEO</strong></h4>
             <h5>
-                <a href = 'https://leksi.co/'>Leksi</a> | Portland | April 2019 - Present
+                <a href = 'https://leksi.co/'><strong>Leksi</strong></a> | Portland | April 2019 - Present
             </h5>
-            <ul>
+            <ul class = 'list-text'>
                 <li>Lead a small team in the creation, launch, and maintenance of <a href = 'https://leksi.co/' target = blank>Leksi</a>, a platform for the healthcare community to easily access and create audio versions of health and medical publications and articles.</li>
                 <li>Design and implement an end-to-end technology architecture for the core features, including AI audio transcription, a mobile-friendly user interface, and a high-performance API.</li>
                 <li>Conceive and design the core feature set, including the frontend web application, core audio transcription, comprehensive security features, and data infrastructure.</li>
@@ -66,11 +117,11 @@
             <h3>Previous Roles</h3>
         </div>
         <div class = 'row'>
-            <h4>Medical Science Director</h4>
+            <h4><strong>Medical Science Director</strong></h4>
             <h5>
-                <a href = 'https://www.gene.com/'>Genentech</a> | South San Francisco | September 2018 - April 2019
+                <a href = 'https://www.gene.com/'><strong>Genentech</strong></a> | South San Francisco | September 2018 - April 2019
             </h5>
-            <ul>
+            <ul class = 'list-text'>
                 <li>Served as the Medical Lead for the impending launch and FDA approval of the second indication for <a href = 'https://www.xofluza.com/' target = blank>baloxavir marboxil</a>.</li>
                 <li>Served as the Medical Lead for FDA label negotiations and conversations with other government entities (e.g., CDC).</li>
                 <li>Was a core member of the study and publication planning team.</li>
@@ -84,11 +135,11 @@
         </div>
 
         <div class = 'row'>
-            <h4>Medical Communications Leader</h4>
+            <h4><strong>Medical Communications Leader</strong></h4>
             <h5>
-                <a href = 'https://www.gene.com/'>Genentech</a> | South San Francisco | October 2016 - September 2018
+                <a href = 'https://www.gene.com/'><strong>Genentech</strong></a> | South San Francisco | October 2016 - September 2018
             </h5>
-            <ul>
+            <ul class = 'list-text'>
                 <li>Led the Medical Communications planning and strategy for the FDA approval and launch of <a href = 'https://www.xofluza.com/' target = blank>baloxavir marboxil</a>.</li>
                 <li>Led and participated in multiple medical advisory boards.</li>
                 <li>Served as a core member for the drafting, editing, and data analysis of the US Prescribing Information for <a href = 'https://www.xofluza.com/' target = blank>baloxavir marboxil</a>.</li>
@@ -101,11 +152,11 @@
         </div>
 
         <div class = 'row'>
-            <h4>Medical Communications Scientist</h4>
+            <h4><strong>Medical Communications Scientist</strong></h4>
             <h5>
-                <a href = 'https://www.gene.com/'>Genentech</a> | South San Francisco | January 2016-October 2016
+                <a href = 'https://www.gene.com/'><strong>Genentech</strong></a> | South San Francisco | January 2016-October 2016
             </h5>
-            <ul>
+            <ul class = 'list-text'>
                 <li>Monitored and rigorously evaluated the medical literature for several FDA-approved products in oncology and wrote/edited medical content for patients and the healthcare community.</li>
                 <li>Effectively communicated with external customers involved in evidence-based healthcare decisions including but not limited to physicians, pharmacists, nurses, and medical/pharmacy students.</li>
                 <li>Provided medical responses through various communication channels (medical response documents, web-based media, etc.)</li>
@@ -115,10 +166,10 @@
         </div>
 
         <div class = 'row'>
-            <h4>International Drug Information Pharmacist</h4>
+            <h4><strong>International Drug Information Pharmacist</strong></h4>
             <h5>
-                <a href = 'https://www.fdbhealth.com/'>Hearst Health - fdb</a> | South San Francisco | June 2013 - January 2016</h5>
-            <ul>
+                <a href = 'https://www.fdbhealth.com/'><strong>Hearst Health : fdb</strong></a> | South San Francisco | June 2013 - January 2016</h5>
+            <ul class = 'list-text'>
                 <li>Created and maintained medication concepts for use by doctors, nurses, and pharmacists to support clinical decisions.</li>
                 <li>Maintained the Drug Information Database for multiple countries, including the United States, Sweden, Australia, and Canada.</li>
                 <li>Thoroughly analyzed medication pharmacokinetics, therapeutic indications, and dosing.</li>
@@ -130,11 +181,11 @@
         </div>
 
         <div class = 'row'>
-            <h4>Critical Care & Inpatient Pharmacist</h4>
+            <h4><strong>Critical Care & Inpatient Pharmacist</strong></h4>
             <h5>
-                <a href = 'https://unmhealth.org/locations/unm-hospital/'>University of New Mexico Hospital</a> | Albuquerque | May 2009 - June 2013
+                <a href = 'https://unmhealth.org/locations/unm-hospital/'><strong>University of New Mexico Hospita</strong>l</a> | Albuquerque | May 2009 - June 2013
             </h5>
-            <ul>
+            <ul class = 'list-text'>
                 <li>Participated in round sessions with medical teams from Neurosurgical, Trauma/Burn, and Medical Intensive Care Units and provided patient medication therapy management.</li>
                 <li>Completed medication pharmacokinetic analyses, participated in hospital-wide code blue procedures, and educated medical teams and students regarding medication therapy.</li>
                 <li>Evaluated suitability of treatment for each patient, considering drug/drug and drug/disease interactions, indications, and pharmacokinetic/pharmacodynamic properties.</li>

@@ -21,7 +21,7 @@ body {
 #my-photo {
     margin-top: 5em;
     margin-bottom: 1em;
-    width: 17em;
+    width: 16em;
     opacity: 0.8;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .top-bar-name {
     padding-top: 4em;
-    margin-left: 2em;
+    margin-left: 4em;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -56,8 +56,12 @@ body {
     font-size: 4em;
 }
 
+.top-bar-link-columns {
+    width: 10em !important;
+}
+
 #top-bar-links {
-    margin-left: 2em;
+    margin-left: 4em;
     margin-top: 3em;
 }
 
@@ -68,6 +72,7 @@ a.top-bar-link {
 #all-info{
     margin-top: 4em;
     margin-left: 30em;
+    margin-right: -15em;
 }
 
 #contact-title, #about, #education {

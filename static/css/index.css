@@ -44,7 +44,6 @@ body {
     margin-left: 23em;
     height: 22em;
     color: white;
-
 }
 
 .top-bar-name {
@@ -73,6 +72,10 @@ a.top-bar-link {
 
 #contact-title, #about, #education {
     color: #279cba;
+}
+
+#about-paragraph {
+    line-height: 25px;
 }
 
 #current-role, #previous-roles {

@@ -3,39 +3,24 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* #left-side-bar {
-    height: 100%;
-  width: 23em;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-  overflow-x: hidden;
-  padding-top: 20px;
-  justify-content: center;
-  text-align: center;
-  box-shadow: 3px 3px 3px rgb(198, 198, 198);
-} */
-
 #my-photo {
-    padding-top: 2em;
+    padding-bottom: 3em;
     padding-left: 7em;
     height: 35em;
     opacity: 0.85;
 }
 
-/* #contact-info {
-    line-height: 2;
-} */
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    #my-photo {
+        padding-left: 0.8em;
+        height: 23em;
+        opacity: 0.85;
+    }
+}
 
 .fab {
     margin-top: 1.5em;
 }
-
-/* #socials {
-    margin-right: 1em;
-} */
 
 #top-bar {
     background-image: linear-gradient(to right, #f13e3e, #e8e3ec);
@@ -52,10 +37,25 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    .top-bar-name {
+        margin-left: 1.5em;
+    }  
+  }
+
+
 #my-name {
     font-size: 4em;
     padding-top: 2em;
 }
+
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    #my-name {
+        font-size: 3em;
+        padding-top: 1.2em;
+    }
+  }
+
 
 #degree {
     font-size: 3em;
@@ -68,6 +68,13 @@ body {
     line-height: 2em;
     padding-bottom: 5em;
 }
+
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    #personal-description {
+        margin-right: 3.5em;
+        padding-bottom: 2em;
+    }
+  }
 
 .top-bar-link-columns {
     width: 10em !important;
@@ -88,6 +95,20 @@ a.top-bar-link {
     margin-right: 15em;
 }
 
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    #all-info{
+        margin-top: 4em;
+        margin-left: 2em;
+        margin-right: 1em
+    }
+  }
+
+.logos {
+    margin-top: 0.8em;
+    height: 3em;
+}
+
+
 #contact-title, #about, #education, #previous-roles {
     color: #ff5858;
     font-family: 'Josefin Sans', sans-serif;
@@ -100,7 +121,7 @@ a.top-bar-link {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3em;
     letter-spacing: 0.08em;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 #about-paragraph {
@@ -112,6 +133,7 @@ a.top-bar-link {
     font-size: 1.1em;
 }
 
-.bottom-spacing {
+.education-listing {
     padding-bottom: 1em;
+    padding-top: 1em;
 }

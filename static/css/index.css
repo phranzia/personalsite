@@ -56,7 +56,6 @@ body {
     }
   }
 
-
 #degree {
     font-size: 3em;
     margin-left: 0.2em;
@@ -80,10 +79,22 @@ body {
     width: 10em !important;
 }
 
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    .top-bar-link-columns {
+       padding-bottom: 0.8em;
+    }
+  }
+
 #top-bar-links {
     margin-left: 4em;
     padding-top: 3em;
 }
+
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    #top-bar-links {
+        margin-left: 2em;
+    }
+  }
 
 a.top-bar-link {
     color: white;
@@ -95,11 +106,11 @@ a.top-bar-link {
     margin-right: 15em;
 }
 
-@media (max-width: 575.98px) and (max-width: 767.98px){
+@media (max-width: 575.98px){
     #all-info{
         margin-top: 4em;
-        margin-left: 2em;
-        margin-right: 1em
+        margin-left: 4em;
+        margin-right: 4em
     }
   }
 
@@ -107,6 +118,13 @@ a.top-bar-link {
     margin-top: 0.8em;
     height: 3em;
 }
+
+@media (max-width: 575.98px){
+    .logos {
+        margin-top: 0.8em;
+        height: 3em;
+    }
+  }
 
 
 #contact-title, #about, #education, #previous-roles {

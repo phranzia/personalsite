@@ -3,7 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#left-side-bar {
+/* #left-side-bar {
     height: 100%;
   width: 23em;
   position: fixed;
@@ -16,49 +16,57 @@ body {
   justify-content: center;
   text-align: center;
   box-shadow: 3px 3px 3px rgb(198, 198, 198);
-}
+} */
 
 #my-photo {
-    margin-top: 5em;
-    margin-bottom: 1em;
-    width: 16em;
-    /* opacity: 0.8; */
+    padding-top: 2em;
+    padding-left: 7em;
+    height: 35em;
+    opacity: 0.85;
 }
 
-#contact-info {
+/* #contact-info {
     line-height: 2;
-}
+} */
 
 .fab {
     margin-top: 1.5em;
 }
 
-#socials {
+/* #socials {
     margin-right: 1em;
-}
+} */
 
 #top-bar {
-    background-image: linear-gradient(to right, #279cba, #5C258D);
+    background-image: linear-gradient(to right, #f13e3e, #e8e3ec);
     top: 0;
-    width: 150%;
-    margin-left: 23.2em;
-    height: 22em;
+    /* width: 150%; */
+    /* margin-left: 23.2em; */
+    /* height: 22em; */
     color: white;
 }
 
 .top-bar-name {
-    padding-top: 4em;
-    margin-left: 4em;
+    /* padding-top: 4em; */
+    margin-left: 9em;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 #my-name {
     font-size: 4em;
+    padding-top: 2em;
 }
 
 #degree {
     font-size: 3em;
     margin-left: 0.2em;
+    padding-bottom: 0.5em;
+}
+
+#personal-description {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+    padding-bottom: 5em;
 }
 
 .top-bar-link-columns {
@@ -67,7 +75,7 @@ body {
 
 #top-bar-links {
     margin-left: 4em;
-    margin-top: 3em;
+    padding-top: 3em;
 }
 
 a.top-bar-link {
@@ -76,21 +84,27 @@ a.top-bar-link {
 
 #all-info{
     margin-top: 4em;
-    margin-left: 30em;
-    margin-right: -15em;
+    margin-left: 15em;
+    margin-right: 15em;
 }
 
-#contact-title, #about, #education {
-    color: #279cba;
+#contact-title, #about, #education, #previous-roles {
+    color: #ff5858;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.08em;
+}
+
+#previous-roles {
+    color: #ff5858;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.08em;
+    padding-top: 2em;
 }
 
 #about-paragraph {
     line-height: 25px;
-}
-
-#current-role, #previous-roles {
-    padding-top: 2em;
-    color: #279cba;
 }
 
 .list-text {

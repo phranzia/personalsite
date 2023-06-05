@@ -97,7 +97,8 @@ body {
   }
 
 a.top-bar-link {
-    color: white;
+    color: rgb(52, 52, 52);
+    font-size: 0.8em;
 }
 
 #all-info{

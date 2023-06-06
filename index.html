@@ -16,29 +16,7 @@
 
 <!-- Reference: Bootstrap Icons: https://icons.getbootstrap.com/?q=arrow -->
 <body>
-  <div class="row">
-    <!-- <div class = 'col-sm-3 mt-5 ml-3' id = 'left-side-bar'>
-        <img src = '/static/images/golda.png'
-            id = 'my-photo' 
-            alt="Golda Manuel">
-        <div class = 'row' id = 'contact-info'>
-            <h3 id = 'contact-title'>Contact</h3>
-            <a href="mailto:goldam@stanford.edu" target="_blank">
-                <h5><strong>goldam@stanford.edu</strong></h5>
-            </a>
-        </div>
-        <div class = 'row'>
-            <a href = 'https://www.linkedin.com/in/goldamanuel/' target="_blank">
-                <i class="fab fa-linkedin-in" 
-                id = 'socials' 
-                style="font-size: 22px"></i>
-            </a>
-            <a href = "mailto:goldam@stanford.edu" target="_blank">
-                <i class="fas fa-envelope" 
-                style="font-size: 22px"></i>
-            </a> 
-        </div>
-    </div> -->
+    <div class="row">
         <div id = 'top-bar'>
             <div class = 'row' id = 'top-bar-links'>
                 <div class = 'col-sm-2 top-bar-link-columns'>
@@ -177,22 +155,40 @@
                 </div>
             </div>
 
+        <!-- SKILLS SECTION -->
+        <div class = 'row' id="skills-section">
+            <div class="col-md-4">
+                <p id="skills-heading"><strong>Skills</strong></p>
+                <p id="skills-description">...developed and honed through professional experiences and 
+                    personal projects.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <ul id="skills-list">
+                    <li><span class="highlight">MEDICAL AFFAIRS</span></li>
+                    <li><span class="highlight">PHARMACEUTICAL & BIOTECHNOLGY INDUSTRY</span></li>
+                    <li><span class="highlight">MEDICAL INFORMATION/COMMUNICATIONS</span></li>
+                    <li><span class="highlight">DIGITAL INNOVATION</span></li>
+                    <li><span class="highlight">MEDICAL WRITING</span></li>
+                </ul> 
+            </div>
+            <div class="col-md-4">
+                <ul id="skills-list">
+                    <li><span class="highlight">HEALTH TECHNOLOGY</span></li>
+                    <li><span class="highlight">ADVISORY BOARDS</span></li>
+                    <li><span class="highlight">CROSS-FUNCTIONAL COLLABORATION</span></li>
+                    <li><span class="highlight">PUBLIC SPEAKING & TRAINING DELIVERY</span></li>
+                    <li><span class="highlight">WEB DEVELOPMENT</span></li>
+                </ul> 
+            </div>
+        </div>
+
+    <!-- PROFESSIONAL EXPERIENCES SECTION  -->
       <!-- <div class = 'row'
             id = 'current-role'>
             <h4><strong>CURRENT ROLE</strong></h4>
         </div>
         <div class = 'row'>
-            <h4><strong>Associate Director, Global Medical Information</strong></h4>
-            <h5>
-                <a href = 'https://biomarin.com/'><strong>BioMarin</strong></a> | San Rafael | August 2021 - Present
-            </h5>
-            <ul class = 'list-text'>
-                <li>Lead a cross-functional team in the evolution and maintenance of a digital platform focused on compliantly providing medical information to healthcare professionals.</li>
-                <li>Lead or significantly contribute to the development of various technologies to improve internal processes and the external exchange of medical information.</li>
-                <li>Serve as the Medical Information lead for all BioMarin therapies in the Asia Pacific region.</li>
-                <li>Serve as the Medical Information lead for several therapies in the United States and Canada.</li>
-                <li>Effectively communicate with external customers involved in evidence-based healthcare decisions including but not limited to physicians, pharmacists, and nurses.</li>
-            </ul>
         </div> -->
         <div class = 'row'
             id = 'previous-roles'>
@@ -389,7 +385,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 
 <script>
     var coll = document.getElementsByClassName("collapsible");

@@ -128,12 +128,44 @@ a.top-bar-link {
   }
 
 
-#contact-title, #about, #education, #previous-roles {
+#contact-title, #about, #education, #previous-roles, #skills-heading {
     color: #ff5858;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3em;
     letter-spacing: 0.08em;
+    margin-top: 1.5em;
 }
+
+#skills-section {
+    padding-top: 5em;
+}
+
+#skills-list {
+    list-style-type: none;
+}
+
+#skills-description {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+}
+
+.highlight{
+    display: inline-block;
+    padding: 0.7em 1.5em;
+    background: #fefb61;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin: 0.7em 0 0.7em 0;
+}
+
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    #skills-description {
+        margin-right: 3.5em;
+    }
+  }
+
 
 #previous-roles {
     color: #ff5858;

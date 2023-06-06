@@ -179,7 +179,12 @@ background-color: #f9f9f9;
 
 #contact-section {
     padding-left: 10%;   
-    padding-top: 3em;
+    padding-top: 5em;
+}
+
+#red-border {
+    border-top: solid 0.08em #ff5858;
+    width: 70%;
 }
 
 #get-in-touch-heading {
@@ -208,7 +213,7 @@ background-color: #f9f9f9;
 
 
 #contact-box {
-    margin-top: 3em;
+    margin-top: 1em;
     height: 20em;
     box-shadow: 0 2px 6px 0 rgba(41, 41, 41, 0.2), 0 6px 20px 0 rgba(87, 87, 87, 0.19);
 }
@@ -234,4 +239,17 @@ background-color: #f9f9f9;
 
 .contact-info:hover {
     color: #ff5858;
+}
+
+#mailIcon {
+    fill: #ff5858;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: -0.5em;
+}
+
+#linkedinIcon {
+    fill: rgb(117, 133, 223);
+    margin-right: 0.5em;
+    margin-bottom: -0.5em;
 }

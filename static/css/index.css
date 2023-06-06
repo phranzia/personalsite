@@ -3,6 +3,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-nav {
+    list-style-type: none !important;
+    padding-top: 3em;
+}
+
 #my-photo {
     padding-bottom: 3em;
     padding-left: 7em;
@@ -25,14 +30,10 @@ body {
 #top-bar {
     background-image: linear-gradient(to right, #f13e3e, #e8e3ec);
     top: 0;
-    /* width: 150%; */
-    /* margin-left: 23.2em; */
-    /* height: 22em; */
     color: white;
 }
 
 .top-bar-name {
-    /* padding-top: 4em; */
     margin-left: 9em;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -75,18 +76,7 @@ body {
     }
   }
 
-.top-bar-link-columns {
-    width: 10em !important;
-}
-
-@media (max-width: 575.98px) and (max-width: 767.98px){
-    .top-bar-link-columns {
-       padding-bottom: 0.8em;
-    }
-  }
-
 #top-bar-links {
-    margin-left: 4em;
     padding-top: 3em;
 }
 
@@ -99,6 +89,7 @@ body {
 a.top-bar-link {
     color: rgb(52, 52, 52);
     font-size: 0.8em;
+    padding-left: 4em;
 }
 
 #all-info{

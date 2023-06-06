@@ -18,26 +18,28 @@
 <body>
     <div class="row">
         <div id = 'top-bar'>
-            <div class = 'row' id = 'top-bar-links'>
-                <div class = 'col-sm-2 top-bar-link-columns'>
-                    <a href='/'
-                        class = 'top-bar-link'>
-                        <strong>About</strong>
-                    </a>
+            <!-- NAVIGATION BAR -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link top-bar-link" href="/">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link top-bar-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link top-bar-link" href="#skills-section">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled top-bar-link" href="#previous-roles">Professional Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled top-bar-link" href="#contact-section">Contact</a>
+                      </li>
+                  </ul>
                 </div>
-                <div class = 'col-sm-2 top-bar-link-columns'>
-                    <a href='#education'
-                        class = 'top-bar-link'>
-                        <strong>Education</strong>
-                    </a>
-                </div>
-                <div class = 'col-sm-2'>
-                    <a href='#previous-roles'
-                        class = 'top-bar-link'>
-                        <strong>Professional Experience</strong>
-                    </a>
-                </div>
-            </div>
+              </nav>
             <div class = 'row top-bar-name'>
                 <div class = 'col-md-5'>
                     <h1 id = 'my-name'><strong>Golda Manuel,</strong></h1>
@@ -56,104 +58,107 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id = 'all-info'>
-            <!-- <div class = 'row'
-                id = 'about'>
-                <h4><strong>ABOUT</strong></h4>
-            </div> -->
-            <!-- <div class = 'row bottom-spacing' id = 'about-paragraph'>
-                <p>It has been over a decade since I began my career in healthcare and several years since I wrote my first line of code. 
-                  I have cared for the most ill patients, helped launch therapies that can treat millions and those for rare conditions, 
-                  maintained a global drug and disease database essential for healthcare organizations, and have founded a healthcare 
-                  education technology company. My current motivation is to leverage technology to improve human outcomes, enhance 
-                  the quality of life of patients and healthcare providers, and make treatment availability less burdensome. 
-                </p>  -->
-                <!--Healthcare providers dedicate much of their time worrying 
-                    about their patients and contemplating whether they gave 
-                    them the best care. These worries followed me day after 
-                    day as I treated the most complicated patients in the 
-                    intensive care unit at the University of New Mexico Hospital. 
-                    After five years, I shifted my focus from direct patient care 
-                    to developing and maintaining healthcare tools and technologies 
-                    that have a widespread impact on bettering patient care and 
-                    equipping healthcare providers with the knowledge they need to 
-                    make informed treatment decisions. -->
 
-                <!--<p>My most recent venture is founding <a href = 'https://leksi.co/'>
-                    Leksi</a>, a platform that uses the latest advances in 
-                    technology and artificial intelligence to help the healthcare 
-                    community stay current with medical practice and research.
-                </p> -->
-            <!-- </div> -->
+    <div id = 'all-info'>
+        <!-- <div class = 'row'
+            id = 'about'>
+            <h4><strong>ABOUT</strong></h4>
+        </div> -->
+        <!-- <div class = 'row bottom-spacing' id = 'about-paragraph'>
+            <p>It has been over a decade since I began my career in healthcare and several years since I wrote my first line of code. 
+                I have cared for the most ill patients, helped launch therapies that can treat millions and those for rare conditions, 
+                maintained a global drug and disease database essential for healthcare organizations, and have founded a healthcare 
+                education technology company. My current motivation is to leverage technology to improve human outcomes, enhance 
+                the quality of life of patients and healthcare providers, and make treatment availability less burdensome. 
+            </p>  -->
+            <!--Healthcare providers dedicate much of their time worrying 
+                about their patients and contemplating whether they gave 
+                them the best care. These worries followed me day after 
+                day as I treated the most complicated patients in the 
+                intensive care unit at the University of New Mexico Hospital. 
+                After five years, I shifted my focus from direct patient care 
+                to developing and maintaining healthcare tools and technologies 
+                that have a widespread impact on bettering patient care and 
+                equipping healthcare providers with the knowledge they need to 
+                make informed treatment decisions. -->
 
-            <div class = 'row'
-                id = 'education'>
-                <p><strong>Education</strong></p>
+            <!--<p>My most recent venture is founding <a href = 'https://leksi.co/'>
+                Leksi</a>, a platform that uses the latest advances in 
+                technology and artificial intelligence to help the healthcare 
+                community stay current with medical practice and research.
+            </p> -->
+        <!-- </div> -->
+
+        <!-- EDUCATION -->
+        <div class = 'row'
+            id = 'education'>
+            <p><strong>Education</strong></p>
+        </div>
+        <div class = 'row education-listing'>
+            <div class='col-md-1'>
+                <img src = '/static/images/Stanford-logo.png'
+                    class="logos"
+                    alt="Stanford logo"
+                />
             </div>
-            <div class = 'row education-listing'>
-                <div class='col-md-1'>
-                    <img src = '/static/images/Stanford-logo.png'
-                        class="logos"
-                        alt="Stanford logo"
-                    />
-                </div>
-                <div class='col-md-10'>
-                    <h4>Master of Science in Clinical Informatics Management</h4>
-                    <h5>
-                        <a href = 'https://med.stanford.edu/master-clinical-informatics-management.html' target='_blank'>
-                            Stanford University School of Medicine</a> | June 2023-Present
-                    </h5>
-                </div>
+            <div class='col-md-10'>
+                <h4>Master of Science in Clinical Informatics Management</h4>
+                <h5>
+                    <a href = 'https://med.stanford.edu/master-clinical-informatics-management.html' target='_blank'>
+                        Stanford University School of Medicine</a> | June 2023-Present
+                </h5>
             </div>
+        </div>
 
-            <div class = 'row education-listing'>
-                <div class='col-md-1'>
-                    <img src = '/static/images/uchicago-logo.png'
-                        class="logos"
-                        alt="University of Chicago logo"
-                    />
-                </div>
-                <div class='col-md-10'>
-                    <h4>Medical Writing & Editing Certificate</h4>
-                    <h5>
-                        <a href = 'https://grahamschool.uchicago.edu/academic-programs/professional-development/medical-writing-and-editing' target='_blank'>
-                            University of Chicago</a> | 2015 - 2016
-                    </h5>
-                </div>
+        <div class = 'row education-listing'>
+            <div class='col-md-1'>
+                <img src = '/static/images/uchicago-logo.png'
+                    class="logos"
+                    alt="University of Chicago logo"
+                />
             </div>
+            <div class='col-md-10'>
+                <h4>Medical Writing & Editing Certificate</h4>
+                <h5>
+                    <a href = 'https://grahamschool.uchicago.edu/academic-programs/professional-development/medical-writing-and-editing' target='_blank'>
+                        University of Chicago</a> | 2015 - 2016
+                </h5>
+            </div>
+        </div>
 
-            <div class = 'row education-listing'>
-                <div class='col-md-1'>
-                    <img src = '/static/images/UNM-logo.png'
-                        class="logos"
-                        alt="UNM logo"
-                    />
-                </div>
-                <div class='col-md-10'>
-                    <h4>Doctor of Pharmacy</h4>
-                    <h5>
-                        <a href = 'https://hsc.unm.edu/pharmacy/' target='_blank'>
-                        University of New Mexico College of Pharmacy</a> | 2005-2009
-                    </h5>
-                </div>
+        <div class = 'row education-listing'>
+            <div class='col-md-1'>
+                <img src = '/static/images/UNM-logo.png'
+                    class="logos"
+                    alt="UNM logo"
+                />
             </div>
+            <div class='col-md-10'>
+                <h4>Doctor of Pharmacy</h4>
+                <h5>
+                    <a href = 'https://hsc.unm.edu/pharmacy/' target='_blank'>
+                    University of New Mexico College of Pharmacy</a> | 2005-2009
+                </h5>
+            </div>
+        </div>
           
-            <div class = 'row education-listing'>
-                <div class='col-md-1'>
-                    <img src = '/static/images/UNM-logo.png'
-                        class="logos"
-                        alt="UNM logo"
-                    />
-                </div>
-                <div class='col-md-10'>
-                    <h4>Pre-Pharmacy</h4>
-                    <h5>
-                        <a href = 'https://www.unm.edu/' target='_blank'>
-                        University of New Mexico</a> | 2002-2005
-                    </h5>
-                </div>
+        <div class = 'row education-listing'>
+            <div class='col-md-1'>
+                <img src = '/static/images/UNM-logo.png'
+                    class="logos"
+                    alt="UNM logo"
+                />
             </div>
+            <div class='col-md-10'>
+                <h4>Pre-Pharmacy</h4>
+                <h5>
+                    <a href = 'https://www.unm.edu/' target='_blank'>
+                    University of New Mexico</a> | 2002-2005
+                </h5>
+            </div>
+        </div>
 
         <!-- SKILLS SECTION -->
         <div class = 'row' id="skills-section">
@@ -183,7 +188,7 @@
             </div>
         </div>
 
-    <!-- PROFESSIONAL EXPERIENCES SECTION  -->
+    <!-- PROFESSIONAL EXPERIENCES  -->
       <!-- <div class = 'row'
             id = 'current-role'>
             <h4><strong>CURRENT ROLE</strong></h4>
@@ -351,6 +356,7 @@
                 </div>
         </div>
 
+        <!-- CONTACT -->
         <div class = 'row' id="contact-section">
             <div class = 'col-md-5'>
                 <div id="red-border"></div>

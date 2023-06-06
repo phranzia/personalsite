@@ -143,13 +143,33 @@ a.top-bar-link {
     padding-top: 1em;
 }
 
-#about-paragraph {
-    line-height: 25px;
+.job-title {
+    padding-top: 1.5em;
+}
+
+.short-job-description {
+    line-height: 2em;
+}
+
+.collapsible {
+    color: #ff5858;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+.collapsible:hover {
+    font-size: 1.3em;
+  }
+  
+.list-content {
+padding: 3em;
+display: none;
+overflow: hidden;
+background-color: #f9f9f9;
 }
 
 .list-text {
     line-height: 2;
-    font-size: 1.1em;
 }
 
 .education-listing {

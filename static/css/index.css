@@ -140,6 +140,12 @@ a.top-bar-link {
     padding-top: 5em;
 }
 
+@media (max-width: 575.98px){
+    #skills-section {
+        padding-top: 2em;
+    }
+  }
+
 #skills-list {
     list-style-type: none;
 }
@@ -148,6 +154,12 @@ a.top-bar-link {
     font-family: 'Montserrat', sans-serif;
     line-height: 2em;
 }
+
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    #skills-description {
+        margin-right: 3.5em;
+    }
+  }
 
 .highlight{
     display: inline-block;
@@ -159,13 +171,6 @@ a.top-bar-link {
     letter-spacing: 0.1em;
     margin: 0.7em 0 0.7em 0;
 }
-
-@media (max-width: 575.98px) and (max-width: 767.98px){
-    #skills-description {
-        margin-right: 3.5em;
-    }
-  }
-
 
 #previous-roles {
     color: #ff5858;

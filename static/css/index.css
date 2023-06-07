@@ -30,7 +30,7 @@ body {
 #top-bar {
     background-image: linear-gradient(to right, #f13e3e, #e8e3ec);
     top: 0;
-    color: white;
+    background-color: rgb(247, 117, 117);
 }
 
 .top-bar-name {
@@ -281,3 +281,15 @@ background-color: #f9f9f9;
     margin-right: 0.5em;
     margin-bottom: -0.5em;
 }
+
+.parallax-effect {
+    background-image: url("../images/background.png");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* .text {
+    height: 1000px;
+  } */

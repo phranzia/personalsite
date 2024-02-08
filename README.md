@@ -1,10 +1,18 @@
 # personalsite
-My Personal Website
+My Personal Website.
 
-Run the site locally:
+First, make sure you have this repository checked out onto your computer.
+
+Second, open the terminal and run `cd` to move into the folder for the repository. For example:
+
+```shell
+cd Desktop/Code/personalsite
+```
+
+Finally, run the site locally by running the following command.
 
 ```shell
 npx http-server
 ```
 
-Then you can go see the site in chrome at http://localhost:8080
+After that runs, you can go see the site in Chrome at http://localhost:8080
